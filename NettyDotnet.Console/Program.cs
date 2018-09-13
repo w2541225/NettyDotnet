@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NettyDotnet.Console
+namespace NettyDotnet.Host
 {
     class Program
     {
