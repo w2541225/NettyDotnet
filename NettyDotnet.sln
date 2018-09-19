@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NettyDotnet.Host", "NettyDotnet.Console\NettyDotnet.Host.csproj", "{59C9629E-729D-4B12-A3B3-FB60906633A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NettyDotnet.Host", "NettyDotnet.Console\NettyDotnet.Host.csproj", "{59C9629E-729D-4B12-A3B3-FB60906633A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO.Netty.Buffer", "IO.Netty.Buffer\IO.Netty.Buffer.csproj", "{CBCE70AF-0153-48E1-ADB7-90894168CF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO.Netty.Util", "IO.Netty.Util\IO.Netty.Util.csproj", "{89B226C7-618C-4202-B876-F41C367F912F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{59C9629E-729D-4B12-A3B3-FB60906633A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59C9629E-729D-4B12-A3B3-FB60906633A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59C9629E-729D-4B12-A3B3-FB60906633A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCE70AF-0153-48E1-ADB7-90894168CF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCE70AF-0153-48E1-ADB7-90894168CF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCE70AF-0153-48E1-ADB7-90894168CF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCE70AF-0153-48E1-ADB7-90894168CF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B226C7-618C-4202-B876-F41C367F912F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B226C7-618C-4202-B876-F41C367F912F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B226C7-618C-4202-B876-F41C367F912F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B226C7-618C-4202-B876-F41C367F912F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
